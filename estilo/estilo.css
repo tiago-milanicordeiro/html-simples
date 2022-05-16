@@ -1,0 +1,165 @@
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, Arial, Tahoma, Sans-serif;
+    font-size: 100%;
+    box-sizing: border-box;
+    text-align: center;
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+p{
+    text-align: left;
+}
+
+.corpo{
+    width: 100%;
+}
+
+.tituloDestaque{
+    font-size: 2em;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+    border-bottom: 3px dotted #ccc;
+}
+
+.titulo{
+    text-transform: uppercase;
+    font-size: 1.3em;
+}
+
+.azul{
+    background-color: #41a6ff;
+    color: #555;
+}
+.preto{
+    background-color: #333;
+    color: #ccc;
+}
+.cinza{
+    background-color: #f2f1ec;
+    color: #555;
+}
+
+.bordas{
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+}
+
+.sombra{
+    box-shadow: 2px 5px 10px #ccc; /*box-shadow: horizontal vertical efeito-blur cor;*/
+    -webkit-box-shadow: 2px 5px 10px #ccc;
+    -moz-box-shadow: 2px 5px 10px #ccc;
+    border: 1px solid #ddd;
+}
+
+.conteudo{
+    max-width: 1280px;
+    width: 80%;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.logo{
+    width: 200px;
+    height: 150px;
+    float: left;
+}
+
+/*GRID*/
+.caixa{
+    float: left;
+    width: 100%;
+    margin: 0.5%;
+}
+.caixa3{
+    width: 24%;
+}
+.caixa6{
+    width: 49%;
+}
+/*GRID*/
+
+img{
+    width: 100%;
+    height: 100%;
+    border: 0;
+    padding: 5px;
+}
+img:hover{
+    opacity: 0.5;
+}
+
+.menu{
+    display: block;
+    float: right;
+    margin-top: 40px;
+    background-color: #2b7dd4;
+}
+.menu li{
+    font-weight: bold;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 20px;
+}
+.menu li:hover{
+    background: #77bfff;
+}
+.menu a{
+    color: #fff;
+}
+
+.limpa{
+    clear: both;
+    overflow: hidden;
+    display: block;
+}
+
+.botao{
+    margin: 10px;
+    display: inline-block;
+    border: 1px solid;
+    color: #fff;
+    cursor: pointer;/*cursor do tipo poiter é a mão. Ulitizada em links*/
+}
+.botaoGrande{
+    padding: 15px 50px;
+}
+.botaoAzul{
+    background-color: #0089fa;
+    border-color: #0082ec;
+}
+
+footer p{
+    font-size: 0.9em;
+    font-weight: bold;
+    text-align: center;
+}
+footer span{
+    font-size: 0.8em;
+}
+footer img{
+    width: 46px;
+    height: 46px;
+}
+
+.social li{
+    display: inline-block;
+    margin: 1%;
+}
+.social li a{
+    padding: 10px;
+}
+
+input, textarea{
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ddd;
+    margin: 1%;
+    text-align: left;
+}
